@@ -8,7 +8,7 @@ int main(int c, char **v)
         return 0;
     }
     else
-        std::cout << "bad argumments [Usage: ]\n"
+        std::cout << "bad argumments \nUsage: \n"
                   << v[0] << " [string to convert]\n";
     return 1;
 }
